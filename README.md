@@ -1,41 +1,55 @@
-# FIN 43900 — AI in Finance (Fall 2026)
+# UiPath investment committee valuation
 
-Course content home. All readings, handouts, prework, starters, and data
-files live in this repository; videos are linked from the week pages.
-**Everything graded — lab checkouts, projects, checkpoints, and all
-deadlines — lives in Brightspace**, which is the authoritative source for
-dates, points, and submissions. If this repo and Brightspace ever seem to
-disagree about a requirement, Brightspace governs and the difference is a
-bug worth reporting.
+**Committee recommendation: do not initiate at the October 19, 2026 intraday quote of $13.03 (11:15 a.m. EDT).** Five-year FCFF scenario range $2.68-$6.11 per basic share; base $4.49. The investment committee holds no position. Monitoring horizon: 12-18 months / four to six earnings reports.
 
-## Weeks
+## View without running
 
-- [Start Here](lessons/week-00/)
-- [Week 1 — Technology Readiness, DRIVER & Company Screening](lessons/week-01/) — projected slides: [Session 01](https://cinderzhang.github.io/FIN43900-Fall2026/lessons/week-01/slides-session-01.html) · [Session 02](https://cinderzhang.github.io/FIN43900-Fall2026/lessons/week-01/slides-session-02.html)
-- [Week 2 — Valuation Foundations](lessons/week-02/) — projected slides: [Session 03](https://cinderzhang.github.io/FIN43900-Fall2026/lessons/week-02/slides-session-03.html) · [Session 04](https://cinderzhang.github.io/FIN43900-Fall2026/lessons/week-02/slides-session-04.html)
-- [Week 3 — DCF & Sensitivity Analysis](lessons/week-03/) — projected slides: [Session 05](https://cinderzhang.github.io/FIN43900-Fall2026/lessons/week-03/slides-session-05.html) · [Session 06](https://cinderzhang.github.io/FIN43900-Fall2026/lessons/week-03/slides-session-06.html)
-- [Week 4 — Comparable Companies & Deal Analysis](lessons/week-04/) — projected slides: [Session 07](https://cinderzhang.github.io/FIN43900-Fall2026/lessons/week-04/slides-session-07.html) · [Session 08](https://cinderzhang.github.io/FIN43900-Fall2026/lessons/week-04/slides-session-08.html)
-- [Week 5 — Pro-Forma Financial Modeling I](lessons/week-05/)
-- [Week 6 — Pro-Forma Financial Modeling II](lessons/week-06/)
-- [Week 7 — Project 1 Studio](lessons/week-07/)
-- [Week 8 — Project 1 Due & Portfolio Construction Opens](lessons/week-08/)
-- [Week 9 — Portfolio Construction & Optimization](lessons/week-09/)
-- [Week 10 — Alternative Data & Market Analysis](lessons/week-10/)
-- [Week 11 — Alternative Data & Market Analysis](lessons/week-11/)
-- [Week 12 — Project 2 Studio](lessons/week-12/)
-- [Week 13 — Project 2 Due & Applied Decision Systems](lessons/week-13/) — projected slides: [Session 25](https://cinderzhang.github.io/FIN43900-Fall2026/lessons/week-13/slides-session-25.html)
-- [Week 14 — Applied Financial Decision Systems](lessons/week-14/) — projected slides: [Session 26](https://cinderzhang.github.io/FIN43900-Fall2026/lessons/week-14/slides-session-26.html)
-- [Week 15 — Integrated Capstone Development](lessons/week-15/)
-- [Week 16 — Capstone Submission & Consultation](lessons/week-16/)
+Open `index.html` for the offline scenario display, `reports/valuation-output.md` for material inputs and complete statements, or `docs/decision-memo.pdf` for the committee memo. The displayed results are saved executed output, not live prices. No web hosting is required.
 
-The `.html` slide files do not render inside the GitHub file browser —
-use the projected-slides links above (arrow keys or click to advance).
+## Reproduce
 
-## Weeks 13–14 — two complete tracks, your decision
+Python 3.9+ and its standard library are sufficient. No network, API keys or pip install is needed.
 
-Two complete two-week builds are published, and **you choose which one you dig
-deep on**: **fixed income** ([lessons/week-13](lessons/week-13/) and
-[lessons/week-14](lessons/week-14/) — class sessions walk this one) or
-**robo-advisory** ([tracks/robo-advisory](tracks/robo-advisory/)) — projected slides: [Session 25](https://cinderzhang.github.io/FIN43900-Fall2026/tracks/robo-advisory/week-13/slides-session-25.html) · [Session 26](https://cinderzhang.github.io/FIN43900-Fall2026/tracks/robo-advisory/week-14/slides-session-26.html).
-Either track counts, and either can seed your capstone. Both replicate real
-open-source research with AI — the equipment, not the fish.
+```bash
+python3 run.py
+python3 -m unittest -v test_model
+```
+
+Optional fresh environment:
+
+```bash
+python3 -m venv --without-pip .venv
+.venv/bin/python run.py
+.venv/bin/python -m unittest -v test_model
+```
+
+For a clean recorded demonstration, use a new checkout or extracted copy, create the fresh environment, and record the commands and visible output. The AI text log is not a substitute for the student's recording.
+
+## Repository map
+
+| File | Purpose |
+| --- | --- |
+| `data/inputs.json` | Dated historical inputs, assumptions and three operating scenarios |
+| `model.py` | Three statements, checks, FCFF, terminal value, equity bridge, sensitivity and reverse DCF |
+| `run.py` | Generate saved results, full report and offline HTML display |
+| `test_model.py` | Ten ordinary technical tests; not the human AI-off exercise |
+| `locked_run.py` | Execute a separately committed student-authored changed-input record while AI is closed |
+| `reports/` | Visible financial output, raw results, test and clean-run logs |
+| `docs/` | Memo, research evolution, sources, method, challenges, validation, recording guide and completion checklist |
+| `legacy/` | Unchanged lab source files for provenance; not the final entry point |
+
+## Sources and conventions
+
+See `docs/source-register.md` and `docs/model-method.md`. October 19 timestamped intraday prices are paired with the latest reported financial positions; July PATH balances proxy opening financial position. Forecasts are five rolling years ending October 19, 2027-2031, not fiscal years. Basic shares of 521.155409m stay fixed under an SBC cash-cost approximation. P/E uses annual reported diluted EPS for both firms and is labeled separately. No NOL asset is added to equity.
+
+The original DCF and FCFE teaching outputs remain under `legacy/`; do not present them as the final current model. Historical notes may reference outputs not included in the original repository. New complete statement outputs are in `reports/valuation-output.md`.
+
+## Limitations and completion status
+
+The student approved the SG&A paths on October 19. WACC uses classroom parameters. Reporting lag, basic fixed shares, amortization timing, NOL omission, one-peer evidence and terminal dependence limit precision. See the memo for conflicting peer evidence. The student completed the separately preserved AI-off changed-input exercise. Three completed recordings and actual-recording transcripts are linked in `docs/manifest.md`; Brightspace submission remains the student’s final step. The student confirms this exact Edition A was submitted September 1 at 2:40 p.m.; the receipt itself has not been inspected. `docs/finish-checklist.md` identifies the remaining actions.
+
+AI-use disclosure: Codex performed final implementation, research checks and draft writing; historical labs also record Gemini suggestions. Human authorship and verification claims are limited to what the student actually supplied. See `docs/validation-and-ai-use.md`.
+
+## Evidence preflight
+
+Run `python3 tools/check_package.py` to verify lineage, output consistency, original Edition A and the human exercise Git bundle. After the recordings/transcripts and actual access checks are entered in `docs/video-evidence.json`, run `python3 tools/check_package.py --submission`. Missing video evidence deliberately fails the submission check; no outline is presented as a transcript. See `docs/quality-audit.md` for unresolved limitations.

@@ -1,0 +1,83 @@
+Video 3 — Stefan Herning
+Timestamped transcript from the actual recording; terminology and numerical formatting corrected.
+
+[00:00–00:07] So, as we've mentioned, my recommendation is to not initiate UiPath. The fund currently has no position.
+
+[00:07–00:15] My operating valuation range is $2.68 to $6.11 per share with a $4.49 base case.
+
+[00:15–00:23] That compares with the frozen October 19th quote of $13.03 at 11:15 a.m. this morning, Eastern Time.
+
+[00:23–00:28] My monitoring horizon is 12 to 18 months. So, here on the base case, the central risk is that
+
+[00:28–00:34] agentic automation replaces existing robot revenue rather than adding profitable business.
+
+[00:34–00:40] Competition could limit pricing while inference costs and implementation work pressure margins.
+
+[00:41–00:46] Consumption billing could also weaken upfront collections. My base case assumes revenue growth
+
+[00:46–00:52] slows to 7%, gross margin reaches 80%, and SG&A improves only to 63% of gross profit.
+
+[00:53–01:01] As we switch down to downside here, you will see that in the downside case, growth slows further,
+
+[01:01–01:07] gross margin reaches 78%, and SG&A remains at 65% of gross profit. Weaker advance collections also
+
+[01:07–01:15] reduce cash generation. That produces approximately $2.68 per share. So, we go up to upside here.
+
+[01:15–01:22] The upside assumes stronger growth, 81% gross margin, and SG&A efficiency improving to 59%
+
+[01:22–01:29] gross profit. Value rises approximately to $6.11. Even that operating profit upside remains below
+
+[01:29–01:33] the comparison price. These scenarios are conditional estimates, not probabilities or
+
+[01:33–01:39] a confidence interval. Let's go into the MD here. The valuation is sensitive to long-term
+
+[01:39–01:46] assumptions at 11% WACC and 3% terminal growth. Approximately 79% of base enterprise value
+
+[01:46–01:50] comes from the terminal period. The reverse DCF changes only the SG&A path,
+
+[01:50–01:57] supporting $13.03 requires SG&A to fall to approximately 34% of gross profit by year 5.
+
+[01:57–02:01] That illustrates the gap under this model. It does not prove the market expects that
+
+[02:01–02:06] exact cost ratio. Different growth or margin assumptions could also explain the price.
+
+[02:07–02:16] So, go to comparables here. You'll see that the peer evidence does not unanimously support my
+
+[02:16–02:22] conclusion. Pega's enterprise value to revenue multiple implies approximately $12.75 for UiPath.
+
+[02:22–02:27] While its reported earnings multiple implies $8.39. I do not average these estimates. Sales
+
+[02:27–02:32] multiple places less discipline on sustainable cash profitability, and reported earnings
+
+[02:32–02:37] contain tax effects. My recommendation depends on my operating judgment with the peer comparison
+
+[02:37–02:42] serving as counter evidence rather than something to hide. As you go into Chrome here, what would
+
+[02:42–02:48] change the decision? I would really reconsider if ARR growth exceeds 12% for two consecutive
+
+[02:48–02:54] quarters. Net retention reaches 110% and disclosed agentic ARR is demonstrably
+
+[02:54–02:59] incremental. I would also want gross margin stabilizing around 81% and selling costs growing
+
+[02:59–03:04] more slowly than gross profit. Retention below 105% for two quarters would strengthen the
+
+[03:04–03:08] downside. These are triggers to update assumptions and rerun valuation, not automatic
+
+[03:08–03:15] buy or sell signals. Back to the base case here. Main limitations are the assumed discount rate,
+
+[03:15–03:21] lagged July balances, as well as simplified dilution treatment and reliance on one peer.
+
+[03:21–03:25] My independent margin test reduced value by approximately 10.4% without changing the
+
+[03:25–03:30] recommendation. That demonstrates sensitivity, not certainty. The model supports the decision
+
+[03:30–03:34] under stated assumptions rather than a precise prediction of the stock price. Back to the
+
+[03:34–03:39] base. My committee ask is to retain zero exposure and reassess over the next four to
+
+[03:39–03:43] six earnings reports. Before initiating, I would require stronger evidence of incremental,
+
+[03:43–03:48] profitable, agentic growth and an updated valuation that supports the prevailing price
+
+[03:48–03:52] with a margin of safety. Thank you for listening.
+

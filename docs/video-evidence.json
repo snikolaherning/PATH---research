@@ -1,0 +1,85 @@
+{
+  "repository_url": "https://github.com/snikolaherning/PATH---research",
+  "repository_final_commit": null,
+  "repository_access_checked_at": null,
+  "edition_a_submission_student_report": "September 1, 2026 at 2:40 p.m.",
+  "edition_a_receipt_id": null,
+  "brightspace_filename_prefix": null,
+  "videos": [
+    {
+      "number": 1,
+      "title": "FIN439 Project 1 - Video 1",
+      "url": "https://youtu.be/HnsjHafni7s",
+      "provider": "YouTube (Unlisted)",
+      "video_id": "HnsjHafni7s",
+      "duration_seconds": 162.121,
+      "evidence_timestamps": {
+        "edition_a": "00:00\u201300:19",
+        "edition_b_and_reason": "00:19\u201301:15",
+        "ai_claim_source_and_rejection": "01:15\u201301:51",
+        "independent_margin_test": "01:52\u201302:16",
+        "reversal_conditions": "02:16\u201302:41"
+      },
+      "access_checked_at": "2026-10-20T02:30:15.995516+00:00",
+      "transcript_reviewed": true,
+      "local_source_filename": "FirstVideoFinal.mp4",
+      "review_status": "Local recording and visible evidence reviewed; signed-out YouTube page verified accessible and Unlisted",
+      "source_sha256": "ffaca795738b13e1eb6304f6ed03e1eee76974445ece7601a9721b0d518fed46",
+      "transcript_status": "ASR transcript reviewed and terminology/numbers corrected against project and sampled visual evidence; not a claim of exhaustive word-for-word audio verification",
+      "face_visible": true
+    },
+    {
+      "number": 2,
+      "title": "FIN439 Project 1 - Video 2",
+      "url": "https://youtu.be/JySR13KIseM",
+      "provider": "YouTube (Unlisted)",
+      "video_id": "JySR13KIseM",
+      "duration_seconds": 273.575,
+      "evidence_timestamps": {
+        "architecture_and_ai_roles": "00:00\u201300:27",
+        "source_dates_and_units": "00:27\u201300:53",
+        "code_and_financial_logic": "00:53\u201301:36",
+        "fresh_environment_and_full_tests": "01:36\u201302:08",
+        "visible_valuation_output": "02:08\u201302:33",
+        "corruption_test_code": "02:33\u201302:54",
+        "standalone_command_failed": "02:54\u201303:18",
+        "human_locked_record": "03:18\u201304:01",
+        "limitations": "04:01\u201304:34"
+      },
+      "access_checked_at": "2026-10-20T02:30:15.995817+00:00",
+      "transcript_reviewed": true,
+      "local_source_filename": "Video2Final439.mp4",
+      "review_status": "Local recording and visible evidence reviewed; signed-out YouTube page verified accessible and Unlisted",
+      "source_sha256": "b13511ed6f3dfaa34daaffb930404f2cde29e31a41ea2d4b9be0b22018eb0f5c",
+      "transcript_status": "ASR transcript reviewed and terminology/numbers corrected against project and sampled visual evidence; not a claim of exhaustive word-for-word audio verification",
+      "face_visible": true
+    },
+    {
+      "number": 3,
+      "title": "FIN439 Project 1 - Video 3",
+      "url": "https://youtu.be/8WbsC9kz8VY",
+      "provider": "YouTube (Unlisted)",
+      "video_id": "8WbsC9kz8VY",
+      "duration_seconds": 232.896,
+      "evidence_timestamps": {
+        "action_range_price_horizon": "00:00\u201300:29",
+        "base_thesis": "00:29\u201300:53",
+        "live_scenario_switching": "00:53\u201301:39",
+        "sensitivity_reverse_dcf": "01:39\u201302:07",
+        "peer_disagreement": "02:07\u201302:43",
+        "monitoring_triggers": "02:43\u201303:09",
+        "limitations": "03:09\u201303:35",
+        "committee_ask": "03:35\u201303:53"
+      },
+      "access_checked_at": "2026-10-20T02:30:15.995821+00:00",
+      "transcript_reviewed": true,
+      "local_source_filename": "thirdvideodone.mp4",
+      "review_status": "Local recording and visible evidence reviewed; signed-out YouTube page verified accessible and Unlisted",
+      "source_sha256": "371dedfe1658d782cad714b9ebd2341df2dbb47f252e46134184c81c3cd5e764",
+      "transcript_status": "ASR transcript reviewed and terminology/numbers corrected against project and sampled visual evidence; not a claim of exhaustive word-for-word audio verification",
+      "face_visible": true
+    }
+  ],
+  "edition_a_receipt_status": "Unavailable; student requests preservation of confirmed submission time",
+  "brightspace_filename_prefix_status": "Not supplied; retain descriptive filenames"
+}

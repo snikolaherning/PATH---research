@@ -1,0 +1,218 @@
+{
+  "metadata": {
+    "company": "UiPath, Inc.",
+    "ticker": "PATH",
+    "currency": "USD",
+    "units": "millions except per-share prices",
+    "valuation_date": "2026-09-24",
+    "information_cutoff": "2026-09-24 close",
+    "prepared_date": "2026-10-19",
+    "horizon": "12-18 months / 4-6 earnings reports",
+    "forecast_periods": "Five rolling 12-month periods ending September 24, 2027-2031; not company fiscal years",
+    "opening_balance_date": "2026-07-31",
+    "opening_policy": "Latest reported balances proxy September 24 opening; no claim of observed September balances. Cash/share lag is stress-tested.",
+    "share_basis": "521.155409m basic Class A+B outstanding September 3; fixed future shares with an SBC cash-cost proxy. Not diluted EPS shares.",
+    "status": "Review draft; student tasks and receipt verification outstanding"
+  },
+  "opening": {
+    "year": 2026,
+    "revenue": 1720.8580000000002,
+    "cash": 607.414,
+    "securities": 797.611,
+    "restricted_cash": 1.475,
+    "receivables": 307.112,
+    "contract_assets": 140.054,
+    "deferred_costs": 251.548,
+    "prepaids": 112.305,
+    "ppe": 46.436,
+    "rou": 63.47,
+    "intangibles": 101.479,
+    "goodwill": 179.481,
+    "dta": 230.087,
+    "other_assets": 68.895,
+    "payables": 16.848,
+    "accruals": 96.62800000000001,
+    "compensation": 89.853,
+    "deferred_revenue": 615.349,
+    "lease_liabilities": 79.76,
+    "tax_payable": 9.777,
+    "acquisition_payable": 34.251,
+    "equity_withholdings": 5.952,
+    "other_liabilities": 10.398,
+    "equity": 1948.551
+  },
+  "history": {
+    "opening_reserve": 326.8322500000001,
+    "ltm_revenue": 1720.8580000000002,
+    "ltm_gp": 1420.596,
+    "ltm_sga": 899.325,
+    "ltm_rd": 368.32300000000004,
+    "ltm_da": 26.000000000000004,
+    "ltm_sbc": 234.581,
+    "ltm_ebit": 152.94799999999992,
+    "ltm_cfo": 373.24600000000004,
+    "ltm_capex": 10.288999999999998
+  },
+  "assumptions": {
+    "growth": [
+      0.112,
+      0.1,
+      0.09,
+      0.08,
+      0.07
+    ],
+    "gm": [
+      0.82,
+      0.81,
+      0.805,
+      0.8,
+      0.8
+    ],
+    "sga": [
+      0.65,
+      0.645,
+      0.64,
+      0.635,
+      0.63
+    ],
+    "rd": [
+      0.24,
+      0.235,
+      0.23,
+      0.225,
+      0.22
+    ],
+    "sbc": [
+      0.16,
+      0.145,
+      0.13,
+      0.12,
+      0.11
+    ],
+    "capex": [
+      0.012,
+      0.011,
+      0.01,
+      0.01,
+      0.01
+    ],
+    "dr": [
+      0.3575826709699464,
+      0.3575826709699464,
+      0.3575826709699464,
+      0.3575826709699464,
+      0.3575826709699464
+    ],
+    "amortization": [
+      23.65,
+      22.896,
+      18.32,
+      17.12,
+      15.953
+    ],
+    "depreciation": 0.18,
+    "tax": 0.23,
+    "reserve_months": 3.0,
+    "wacc": 0.11,
+    "g": 0.03,
+    "shares": 521.155409
+  },
+  "scenarios": {
+    "downside": {
+      "growth": [
+        0.08,
+        0.06,
+        0.05,
+        0.04,
+        0.03
+      ],
+      "gm": [
+        0.8,
+        0.79,
+        0.78,
+        0.78,
+        0.78
+      ],
+      "sga": [
+        0.65,
+        0.65,
+        0.65,
+        0.65,
+        0.65
+      ],
+      "rd": [
+        0.24,
+        0.24,
+        0.24,
+        0.24,
+        0.24
+      ],
+      "dr": [
+        0.35,
+        0.34,
+        0.33,
+        0.32,
+        0.32
+      ]
+    },
+    "base": {},
+    "upside": {
+      "growth": [
+        0.13,
+        0.12,
+        0.11,
+        0.1,
+        0.09
+      ],
+      "gm": [
+        0.82,
+        0.815,
+        0.81,
+        0.81,
+        0.81
+      ],
+      "sga": [
+        0.65,
+        0.635,
+        0.62,
+        0.605,
+        0.59
+      ],
+      "dr": [
+        0.3575826709699464,
+        0.3575826709699464,
+        0.3575826709699464,
+        0.3575826709699464,
+        0.3575826709699464
+      ]
+    }
+  },
+  "market": {
+    "PATH": {
+      "price": 12.6,
+      "price_date": "2026-09-24 close",
+      "shares": 521.155409,
+      "shares_date": "2026-09-03",
+      "cash_securities": 1405.025,
+      "balance_date": "2026-07-31",
+      "funded_debt": 0,
+      "ltm_revenue": 1720.8580000000002,
+      "revenue_period_end": "2026-07-31",
+      "annual_diluted_eps": 0.52,
+      "eps_period_end": "2026-01-31"
+    },
+    "PEGA": {
+      "price": 34.23,
+      "price_date": "2026-09-24 close",
+      "shares": 164.404945,
+      "shares_date": "2026-07-13",
+      "cash_securities": 361.907,
+      "balance_date": "2026-06-30",
+      "funded_debt": 0,
+      "ltm_revenue": 1736.3559999999998,
+      "revenue_period_end": "2026-06-30",
+      "annual_diluted_eps": 2.13,
+      "eps_period_end": "2025-12-31"
+    }
+  }
+}

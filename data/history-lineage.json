@@ -1,0 +1,67 @@
+{
+  "units": "USD millions; SEC statement values in thousands divided by 1000",
+  "formula": "annual + current_half - prior_half",
+  "annual_period_end": "2026-01-31",
+  "half_period_end": "2026-07-31",
+  "prior_half_period_end": "2025-07-31",
+  "annual_source": "https://www.sec.gov/Archives/edgar/data/1734722/000173472226000012/path-20260131.htm",
+  "half_source": "https://ir.uipath.com/financials/sec-filings/content/0001734722-26-000050/path-20260731.htm",
+  "rows": {
+    "ltm_revenue": {
+      "annual": 1610.572,
+      "current_half": 828.638,
+      "prior_half": 718.352,
+      "label": "Revenue"
+    },
+    "ltm_gp": {
+      "annual": 1339.588,
+      "current_half": 671.123,
+      "prior_half": 590.115,
+      "label": "Gross profit"
+    },
+    "ltm_sga": {
+      "annual": 897.62,
+      "current_half": 435.237,
+      "prior_half": 433.532,
+      "label": "Sales and marketing plus general and administrative",
+      "current_components": [
+        332.465,
+        102.772
+      ],
+      "prior_components": [
+        325.964,
+        107.568
+      ]
+    },
+    "ltm_rd": {
+      "annual": 385.208,
+      "current_half": 176.295,
+      "prior_half": 193.18,
+      "label": "Research and development"
+    },
+    "ltm_da": {
+      "annual": 16.969,
+      "current_half": 16.514,
+      "prior_half": 7.483,
+      "label": "Depreciation and amortization cash-flow reconciliation"
+    },
+    "ltm_sbc": {
+      "annual": 290.676,
+      "current_half": 98.272,
+      "prior_half": 154.367,
+      "label": "Stock-based compensation cash-flow reconciliation"
+    },
+    "ltm_cfo": {
+      "annual": 371.208,
+      "current_half": 162.627,
+      "prior_half": 160.589,
+      "label": "Net cash provided by operating activities"
+    },
+    "ltm_capex": {
+      "annual": 19.048,
+      "current_half": 4.073,
+      "prior_half": 12.832,
+      "label": "Purchases of property and equipment; positive outflow magnitude"
+    }
+  }
+}

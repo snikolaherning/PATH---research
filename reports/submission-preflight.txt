@@ -1,0 +1,27 @@
+EXPECTED INCOMPLETE BEFORE RECORDING
+INCOMPLETE: Video 1 missing actual url
+INCOMPLETE: Video 1 missing actual provider
+INCOMPLETE: Video 1 missing actual video_id
+INCOMPLETE: Video 1 missing actual duration_seconds
+INCOMPLETE: Video 1 missing actual evidence_timestamps
+INCOMPLETE: Video 1 missing actual access_checked_at
+INCOMPLETE: Video 1 missing actual transcript_reviewed
+INCOMPLETE: Missing actual corrected transcript 1
+INCOMPLETE: Video 2 missing actual url
+INCOMPLETE: Video 2 missing actual provider
+INCOMPLETE: Video 2 missing actual video_id
+INCOMPLETE: Video 2 missing actual duration_seconds
+INCOMPLETE: Video 2 missing actual evidence_timestamps
+INCOMPLETE: Video 2 missing actual access_checked_at
+INCOMPLETE: Video 2 missing actual transcript_reviewed
+INCOMPLETE: Missing actual corrected transcript 2
+INCOMPLETE: Video 3 missing actual url
+INCOMPLETE: Video 3 missing actual provider
+INCOMPLETE: Video 3 missing actual video_id
+INCOMPLETE: Video 3 missing actual duration_seconds
+INCOMPLETE: Video 3 missing actual evidence_timestamps
+INCOMPLETE: Video 3 missing actual access_checked_at
+INCOMPLETE: Video 3 missing actual transcript_reviewed
+INCOMPLETE: Missing actual corrected transcript 3
+INCOMPLETE: Final accessible repository commit not recorded
+INCOMPLETE: Repository access check not recorded

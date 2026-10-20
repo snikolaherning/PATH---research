@@ -1,0 +1,56 @@
+{
+  "run_at": "2026-10-19T21:28:24.233119+00:00",
+  "pre_run_commit": "30bebd0e9f433ca58a337c368eeab49ae7470eec",
+  "commit_time": "2026-10-19T17:28:24-04:00",
+  "prediction": {
+    "author": "Stefan Herning",
+    "prediction_written_at": "2026-10-19T17:28:21.570779-04:00",
+    "field": "gm",
+    "old_value": [
+      0.82,
+      0.81,
+      0.805,
+      0.8,
+      0.8
+    ],
+    "new_value": [
+      0.79,
+      0.785,
+      0.78,
+      0.775,
+      0.77
+    ],
+    "units": "%",
+    "expected_direction": "Decrease",
+    "expected_decision_effect": "I would expect it to not change or get even closer to a hard sell if anything",
+    "causal_reason": "A smaller gross margin means the company is making less per dollar of revenue",
+    "why_material": "This change is meaningful to investigate because it helps us to determine  what may happen if gross margin shrinks at a rate greater than we would hope or investors would expect",
+    "ai_closed_attestation": true
+  },
+  "baseline": {
+    "ev": 1297.541992542208,
+    "equity": 2341.4837425422074,
+    "per_share": 4.49287046072318,
+    "pv_explicit": 266.8753958448483,
+    "pv_terminal": 1030.6665966973596,
+    "terminal_share": 0.794322343801781,
+    "terminal_first_fcff": 136.02347307415585,
+    "excess_cash": 1078.19275,
+    "acquisition_claim": 34.251,
+    "funded_debt": 0.0
+  },
+  "changed": {
+    "ev": 1054.6641833239928,
+    "equity": 2098.6059333239928,
+    "per_share": 4.02683325757057,
+    "pv_explicit": 198.78502691139357,
+    "pv_terminal": 855.8791564125992,
+    "terminal_share": 0.8115181779617457,
+    "terminal_first_fcff": 112.46131294128446,
+    "excess_cash": 1078.19275,
+    "acquisition_claim": 34.251,
+    "funded_debt": 0.0
+  },
+  "actual_value_change": -0.4660372031526103,
+  "student_reconciliation": "Not supplied. Student must append actual direction, decision effect and failure diagnosis/no-change reason after inspecting output."
+}

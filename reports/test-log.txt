@@ -1,0 +1,17 @@
+2026-10-19T17:46:04.968624-04:00
+Final pre-recording audit
+test_all_cases_articulate (test_model.FinanceTests) ... ok
+test_boundary (test_model.FinanceTests) ... ok
+test_classroom_known_answer (test_model.FinanceTests) ... ok
+test_comps_definitions (test_model.FinanceTests) ... ok
+test_filing_reconciliation (test_model.FinanceTests) ... ok
+test_highest_risk_corruption_is_refused (test_model.FinanceTests) ... ok
+test_monotonicity (test_model.FinanceTests) ... ok
+test_preregistered_tax_direction (test_model.FinanceTests) ... ok
+test_reverse_dcf (test_model.FinanceTests) ... ok
+test_sbc_not_double_counted (test_model.FinanceTests) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.055s
+
+OK

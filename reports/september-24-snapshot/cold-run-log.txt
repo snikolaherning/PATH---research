@@ -1,0 +1,30 @@
+AI-performed clean-environment text log; no student screen recording claimed.
+2026-10-19T15:05:58.992643+00:00
+Fresh copied project; new venv without pip; no network or third-party packages.
+COMMAND: /Users/stefanherning/Documents/Codex/2026-10-19/we-ba/work/cold-run/.venv/bin/python --version
+Python 3.9.6
+
+EXIT: 0
+COMMAND: /Users/stefanherning/Documents/Codex/2026-10-19/we-ba/work/cold-run/.venv/bin/python run.py
+Wrote reports/results.json, reports/valuation-output.md and index.html
+Base 4.4929 Range 2.6823 6.1071
+
+EXIT: 0
+COMMAND: /Users/stefanherning/Documents/Codex/2026-10-19/we-ba/work/cold-run/.venv/bin/python -m unittest -v test_model
+test_all_cases_articulate (test_model.FinanceTests) ... ok
+test_boundary (test_model.FinanceTests) ... ok
+test_classroom_known_answer (test_model.FinanceTests) ... ok
+test_comps_definitions (test_model.FinanceTests) ... ok
+test_filing_reconciliation (test_model.FinanceTests) ... ok
+test_highest_risk_corruption_is_refused (test_model.FinanceTests) ... ok
+test_monotonicity (test_model.FinanceTests) ... ok
+test_preregistered_tax_direction (test_model.FinanceTests) ... ok
+test_reverse_dcf (test_model.FinanceTests) ... ok
+test_sbc_not_double_counted (test_model.FinanceTests) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.053s
+
+OK
+
+EXIT: 0

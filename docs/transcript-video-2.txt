@@ -1,0 +1,137 @@
+Video 2 — Stefan Herning
+Timestamped transcript from the actual recording; terminology and numerical formatting corrected.
+
+[00:00–00:06] So, as you can see here, this project is going to evaluate whether a fund with no current position
+
+[00:06–00:08] should initiate one in UiPath.
+
+[00:08–00:11] My recommendation is that they do not.
+
+[00:11–00:17] The input feeds the financial model, and the run file generates the report and dashboard.
+
+[00:17–00:22] The tests check the calculations, so Codex was helpful in assisting implementation.
+
+[00:22–00:27] I own everything else, the investment judgment, the exercise, everything else.
+
+[00:27–00:32] So, as we go to Inputs JSON here, the dollar amounts and share amounts are in millions, and
+
+[00:32–00:33] the percentages are decimals.
+
+[00:33–00:38] The model uses July reported balances and trailing 12-month financial data.
+
+[00:38–00:42] Annual results plus the current half-year minus the prior half-year is how we get there.
+
+[00:42–00:48] The valuation uses an October 19 price snapshot based on today, and then July balances are
+
+[00:48–00:50] an opening position proxy.
+
+[00:50–00:53] They're not observed October balances.
+
+[00:53–01:00] As we go down to Model Python here, you're going to see that growth drives revenue and
+
+[01:00–01:02] gross margin determines gross profit.
+
+[01:02–01:07] SG&A is a percentage of gross profit, and research and development is a percentage of
+
+[01:07–01:08] revenue.
+
+[01:08–01:11] The model links the income statement, cash flow statement, and balance sheet.
+
+[01:11–01:13] Cash comes from modeled flows rather than a balancing plug.
+
+[01:13–01:18] The checks require those statements to reconcile, and stock-based compensation is an economic
+
+[01:18–01:20] expense in free cash flow.
+
+[01:20–01:23] The value function discounts free cash flow to the firm at WACC.
+
+[01:23–01:28] It adds excess liquidity, subtracts debt and acquisition claims, and divides by basic
+
+[01:28–01:29] shares.
+
+[01:29–01:32] The forecast of accumulated cash is not added again.
+
+[01:32–01:35] The base discount rate is 11% with 3% terminal growth.
+
+[01:35–01:40] So, now I'm going to reproduce the output in a new directory in a fresh Python environment.
+
+[01:40–01:46] There's no additional packages, there's no additional API keys or network connection
+
+[01:46–01:47] required.
+
+[01:47–01:50] I'm just going to copy and paste it, and you're going to see how it can run.
+
+[01:50–01:59] So, I ran these 10 tests, and as you see, they are all successful, they all pass, they
+
+[01:59–02:04] cover financial reconciliation, the training benchmark, valuation bridges, boundaries,
+
+[02:04–02:07] and sensitivity directions.
+
+[02:07–02:16] The generated report, the valuation and the report, shows kind of all the different, sorry,
+
+[02:16–02:20] little things here.
+
+[02:20–02:25] It's going to show a base value of approximately $4.49 per share within the scenario range
+
+[02:25–02:28] of $2.68 to $6.11.
+
+[02:28–02:32] The report also is going to expose some of the assumptions and financial statements behind
+
+[02:32–02:33] those values.
+
+[02:33–02:40] So, as we move into the next part here, looking at the test model in Python, you
+
+[02:40–02:47] see a high-risk failure would be an inconsistent model producing a believable valuation.
+
+[02:47–02:51] This test deliberately corrupts financial values, including cash and free cash flow,
+
+[02:51–02:54] and requires that valuation to reject them.
+
+[02:54–02:57] So, we're going to run this again in the terminal.
+
+[02:57–03:02] As you see, again, no API keys or network connection, you just paste it in, you run
+
+[03:02–03:09] it.
+
+[03:09–03:15] So, the test passed because we expected the refusals to occur, not because those corrupted
+
+[03:15–03:18] figures were accepted, so we're successful with that.
+
+[03:18–03:23] And as we move down here to the human change part, separately, I completed this change
+
+[03:23–03:25] input exercise with AI closed.
+
+[03:25–03:29] I lowered the five-year gross margin path and predicted that value would decrease because
+
+[03:29–03:32] the business would retain less per dollar of revenue.
+
+[03:32–03:36] I expected the recommendation to remain unchanged and my prediction was saved and committed
+
+[03:36–03:37] before execution.
+
+[03:37–03:43] As we move in here to the reconciliation, you can see that value fell from approximately
+
+[03:43–03:47] $4.49 to $4.03 per share, which is a 10.4% decrease.
+
+[03:47–03:52] That matched my prediction and do not initiate remained my recommendation as a result.
+
+[03:52–03:56] This kind of shows sensitivity to the lower margins, doesn't necessarily prove that margins
+
+[03:56–03:58] are going to decline.
+
+[03:58–04:01] Original answers and results were preserved through this.
+
+[04:01–04:08] And then lastly here, just a quick kind of limitation, review of it.
+
+[04:08–04:13] The main limitations I saw were the assumed discount rate, balances that lagged, and
+
+[04:13–04:17] then there was a simplified dilution treatment and there was a substantial dependence on
+
+[04:17–04:19] the terminal value.
+
+[04:19–04:24] These tests help to support calculation consistency, not the accuracy of the business forecast.
+
+[04:24–04:29] So the valuation remains conditional on assumptions and I retain a responsibility for that investment
+
+[04:29–04:33] judgment of watch or just do not initiate or buy.
+

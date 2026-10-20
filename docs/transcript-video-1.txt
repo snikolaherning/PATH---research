@@ -1,0 +1,53 @@
+Video 1 — Stefan Herning
+Timestamped transcript from the actual recording; terminology and numerical formatting corrected.
+
+[00:00–00:05] So, let's start right off. My original Edition A submitted September 1st,
+
+[00:06–00:07] recommended initiating
+
+[00:07–00:13] coverage on UiPath. My rationale focused on platform demand and the opportunity in AI agents.
+
+[00:13–00:19] Its original document is preserved unchanged, including its incomplete fields.
+
+[00:19–00:23] As we go up here, my current recommendation is not to initiate,
+
+[00:23–00:30] different from the original one. Because the fund has no position, this means staying out rather than selling. My concern really shifted
+
+[00:30–00:36] from whether UiPath participates in agentic automation, to whether agents add profitable revenue, or replace existing
+
+[00:36–00:43] robot licenses. I think competition could constrain pricing, inference costs could pressure margins, and consumption billing
+
+[00:43–00:49] could weaken upfront collections. These are risks that I'm testing, not findings that cannibalization has already occurred.
+
+[00:49–00:58] As we go down here, a consequential assumption change is selling efficiency. The earlier lab path reached 59%
+
+[00:59–01:04] SG&A as a share of gross profit. I'm less confident in that improvement, so my approved base
+
+[01:05–01:14] ends at 63%, with 59% reserved for upside. My judgment and peer challenges kind of drove that revision. AI helped to implement and check that model.
+
+[01:15–01:22] As we look here, in lab 8, it identified Gemini's annual diluted EPS figures,
+
+[01:22–01:31] of 15 cents for UiPath, and $1.42 for Pega. The company's annual releases instead report 52 cents, and $2.13.
+
+[01:32–01:40] Those AI figures were rejected, and the final comparison uses the reported company figures. Correcting the numbers does not remove every limitation.
+
+[01:40–01:51] Reported earnings still contain tax effects. The record distinguishes the historical lab check from Codex's later source verification.
+
+[01:52–01:56] As we go back here, I also completed an independent gross margin test with AI closed.
+
+[01:58–02:04] That was something where value was something that fell approximately $4.49 to $4.03 per share, about 10%.
+
+[02:05–02:12] 10.4% that matched my prediction, and while do not initiate was a recommendation that remained unchanged,
+
+[02:12–02:16] it supports sensitivity to margin risk, not proof of a future decline.
+
+[02:16–02:22] As we go down here a little bit, I would reconsider with a stronger ARR growth and retention,
+
+[02:22–02:27] demonstrate incremental agentic revenue. Stable margins and improving selling efficiency would all
+
+[02:27–02:32] help to potentially change my recommendation. That evidence would prompt a new valuation,
+
+[02:32–02:36] not an automatic buy. The final investment judgment remains mine,
+
+[02:36–02:40] and I believe that it would take a lot for UiPath to get to that buy.
+

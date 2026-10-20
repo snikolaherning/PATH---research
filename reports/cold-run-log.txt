@@ -1,0 +1,28 @@
+Final pre-recording cold run; executed by Codex. Student screen recording still required.
+COMMAND: python run.py
+Wrote reports/results.json, reports/valuation-output.md and index.html
+Base 4.4929 Range 2.6823 6.1071
+
+
+COMMAND: python -m unittest -v test_model
+
+test_all_cases_articulate (test_model.FinanceTests) ... ok
+test_boundary (test_model.FinanceTests) ... ok
+test_classroom_known_answer (test_model.FinanceTests) ... ok
+test_comps_definitions (test_model.FinanceTests) ... ok
+test_filing_reconciliation (test_model.FinanceTests) ... ok
+test_highest_risk_corruption_is_refused (test_model.FinanceTests) ... ok
+test_monotonicity (test_model.FinanceTests) ... ok
+test_preregistered_tax_direction (test_model.FinanceTests) ... ok
+test_reverse_dcf (test_model.FinanceTests) ... ok
+test_sbc_not_double_counted (test_model.FinanceTests) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.055s
+
+OK
+
+COMMAND: python tools/check_package.py
+PASS: historical lineage, saved outputs/dashboard, unchanged Edition A, original human prediction/Git evidence, local links and PDF presence.
+Pre-recording check only. Videos, transcript accuracy, public access and final submission are NOT certified.
+

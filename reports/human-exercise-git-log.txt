@@ -1,0 +1,23 @@
+commit f0ab9912cbd8c9332c46dea5ba9d8714da44ea66
+Author:     Stefan Herning <ai-off-exercise@localhost>
+AuthorDate: Mon Oct 19 17:30:37 2026 -0400
+Commit:     Stefan Herning <ai-off-exercise@localhost>
+CommitDate: Mon Oct 19 17:30:37 2026 -0400
+
+    Save actual result and student AI-off reconciliation AFTER execution
+
+commit 30bebd0e9f433ca58a337c368eeab49ae7470eec
+Author:     Stefan Herning <ai-off-exercise@localhost>
+AuthorDate: Mon Oct 19 17:28:24 2026 -0400
+Commit:     Stefan Herning <ai-off-exercise@localhost>
+CommitDate: Mon Oct 19 17:28:24 2026 -0400
+
+    Save student-authored AI-off prediction BEFORE execution
+
+commit 4b9efc2ddca0f4616381beeeaeb9a1cd70c1e4fe
+Author:     Codex <codex-setup@localhost>
+AuthorDate: Mon Oct 19 17:20:34 2026 -0400
+Commit:     Codex <codex-setup@localhost>
+CommitDate: Mon Oct 19 17:20:34 2026 -0400
+
+    Prepare guided exercise baseline; no student prediction or test performed

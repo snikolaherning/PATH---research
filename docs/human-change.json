@@ -1,0 +1,25 @@
+{
+  "author": "Stefan Herning",
+  "prediction_written_at": "2026-10-19T17:28:21.570779-04:00",
+  "field": "gm",
+  "old_value": [
+    0.82,
+    0.81,
+    0.805,
+    0.8,
+    0.8
+  ],
+  "new_value": [
+    0.79,
+    0.785,
+    0.78,
+    0.775,
+    0.77
+  ],
+  "units": "%",
+  "expected_direction": "Decrease",
+  "expected_decision_effect": "I would expect it to not change or get even closer to a hard sell if anything",
+  "causal_reason": "A smaller gross margin means the company is making less per dollar of revenue",
+  "why_material": "This change is meaningful to investigate because it helps us to determine  what may happen if gross margin shrinks at a rate greater than we would hope or investors would expect",
+  "ai_closed_attestation": true
+}
